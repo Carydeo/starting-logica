@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha(){
+
+        document.write("<br>");
+
+    }
+
+    function mostra(frase){
+
+        pulaLinha;
+        document.write(frase);
+        pulaLinha
+
+    }
+
+    var anoChegada = 1500
+    var anoAtual = 2021
+    var intervalo = 28
+    var geracoes = (anoAtual-anoChegada)/intervalo
+
+    mostra("Desde que os portugueses chegaram em "+ anoChegada + " tivemos " + Math.round(geracoes) + " gerações")
+
+
+</script>
