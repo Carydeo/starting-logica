@@ -40,11 +40,12 @@ nav a:hover{
 }
 
 .produtos li{
-    display: inline-block;
+    display: block;
     text-align: center;
-    width: 30%;
+    width: 940px;
+    height: fit-content;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 5px 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
@@ -68,18 +69,10 @@ nav a:hover{
     font-weight: bold;
 }
 
-.produto-descricao {
-    font-size: 18px;  
-}
-.produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-}
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background:#BBBBBB;
     padding: 40px 0;
 }
 
@@ -108,4 +101,20 @@ form label, form p {
     margin-bottom: 20px;
     padding: 10px 25px;
     width: 50%;
+}
+.tabela {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.cabeçalho {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 2px 0; 
+}
+.conteúdo {
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 1px 0;  
 }
